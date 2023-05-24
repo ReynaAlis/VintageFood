@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1600px;
+    min-width: 1600px;
 }
 
 .header {
@@ -102,7 +102,7 @@ body {
 
 .main {
     background-color: #FFFFFF;
-    height: 900px;
+    min-height: 900px;
 }
 
 .main-title {
@@ -116,7 +116,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
-    margin: 38px 0 0 87px;
+    margin: 38px 87px 103px 87px;
 }
 
 .main-link {
