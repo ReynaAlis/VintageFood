@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    min-width: 1600px;
+    max-width: 1600px;
+    max-height: 900px;
 }
 
 .header {
@@ -58,6 +59,12 @@ body {
     margin-right: 298px;
 }
 
+.header-shopping-btn {
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
 .header-content {
     display: flex;
     justify-content: flex-start;
@@ -102,7 +109,6 @@ body {
 
 .main {
     background-color: #FFFFFF;
-    height: 900px;
 }
 
 .main-title {
@@ -115,8 +121,8 @@ body {
 .main-catalog {
     display: flex;
     flex-wrap: wrap;
-    gap: 38px;
-    margin: 38px 87px 103px 87px;
+    gap: 15px;
+    margin: 38px 60px 103px 60px;
 }
 
 .main-link {
@@ -139,7 +145,7 @@ body {
 .footer {
     background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
     text-align: center;
-    height: 450px;
+
 }
 
 .footer-links {
@@ -168,7 +174,7 @@ body {
 }
 
 .footer-social {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     padding-right: 6px;
 }
 
